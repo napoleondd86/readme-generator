@@ -31,8 +31,8 @@ const questions = [
   {
     type: 'list',
     message: 'What kind of license should your project have?',
-    name: 'licenses',
-    choices: ['Apache 2.0', 'MIT', 'ISC', 'BSD 3-Clause', 'BSD 2-Clause', 'GNU GPL v3']
+    name: 'license',
+    choices: ['Apache 2.0', 'MIT', 'ISC', 'BSD 3', 'EPL 1.0', 'GPL v3']
   },
   {
     type: 'input',
@@ -51,7 +51,7 @@ const questions = [
   },
   {
     type: 'input',
-    message: 'What does the user need to know about contributing to the repo?',
+    message: 'What are the contribution guidelines for the repo?',
     name: 'contributionInfo'
   }
 ];
@@ -60,7 +60,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(filename, data) {
   fs.writeFileSync('dist/' + filename + '.md', data)
-  console.log("Readme Generated, Congrats")
+  console.log("Readme Generated, Congratulations")
 }
 
 //does the same as writeFIleSYnc
