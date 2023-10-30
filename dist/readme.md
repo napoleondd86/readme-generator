@@ -1,10 +1,10 @@
-# Readme generator
+# README Generator
   
-  ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
   
   ## Description
   
-  dfsaf
+  This will help create a README.md file for your next project.
   
   ## Table of Contents
   
@@ -20,22 +20,22 @@
   ## Installation
   
   ```bash
-  agdf
+  npm install
   ```
   
   ## Usage
   
-  afsd
+  Its pretty self explanatory
   
   
   ## Contributing
   
-  sfda
+  If you have an idea to improve the project please submit a pull request
 
   ## Tests
   
   ```bash
-  asdf
+  npm run test
   ```
 
   ## Questions
@@ -44,9 +44,9 @@
 
   ## License
 
-  This project is licensed under the <strong>GPL v3</strong> license.
+  This project is licensed under the <strong>MIT</strong> license.
    
   For more info on the license follow this link:
-      https://www.gnu.org/licenses/gpl-3.0
+      https://opensource.org/licenses/MIT
 
   
